@@ -40,6 +40,6 @@ class QuoteTutPipeline(object):
             item['tags'][0]
             ))
         self.curr.execute("SELECT *FROM quotes_tb")
-        print(self.curr.fetchall())
+        # print(self.curr.fetchall())
         self.conn.commit()
 
