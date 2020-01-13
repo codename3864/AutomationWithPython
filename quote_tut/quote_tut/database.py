@@ -1,14 +1,17 @@
-import sqlite3
+# import sqlite3
 
-conn = sqlite3.connecy('quotes.db')
-curr = conn.cursor()
+# conn = sqlite3.connect('quotes.db')
+# curr = conn.cursor()
 
 
-curr.execute("""create table quotes_tb(
-		title  text,
-		author text,
-		tags text
-		)""")
+# curr.execute("""CREATE table quotes_tb(
+# 		title text,
+# 		author text,
+# 		tags text
+# 		)""")
 
-conn.commit()
-conn.close()
+# # curr.execute("INSERT INTO quotes_tb VALUES('X','anonymous','python')")
+# curr.execute("SELECT *FROM quotes_tb")
+# print(curr.fetchone())
+# conn.commit()
+# conn.close()
